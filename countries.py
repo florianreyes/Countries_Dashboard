@@ -13,4 +13,4 @@ def get_country_info(name):
     return response.json()
 
 country = "argentina"
-print(get_country_info(country)[0]['latlng'][0])
+print(get_country_info(country)[0].keys())
